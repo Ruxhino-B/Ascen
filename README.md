@@ -33,11 +33,17 @@ POST http://127.0.0.1:8000/workday Add new workday. In this case in body must en
 **Please be sure start_time must be lest than end_time** look code below
 
 class WorkDay(models.Model):
+
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    
     day = models.CharField(max_length=15, null=True, blank=True, )
+    
     start_time = models.DateTimeField()
+    
     end_time = models.DateTimeField()
+    
     delta_time = models.CharField(max_length=5, null=True, blank=True)
+    
 
     def save(self, *args, **kwargs):
         if self.start_time >= self.end_time:

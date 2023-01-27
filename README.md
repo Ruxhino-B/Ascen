@@ -82,3 +82,6 @@ POST http://127.0.0.1:8000/sendMail send email in email below
 ![Screenshot from 2023-01-27 11-11-45](https://user-images.githubusercontent.com/32514053/215061384-bfae239f-f0cf-44a8-842d-edb7e94a6e04.png)
 
 
+Example ![Screenshot from 2023-01-27 11-14-57](https://user-images.githubusercontent.com/32514053/215062127-1441dad2-8b3e-4766-b1d8-7ea6760e2c3b.png)
+of pdf
+
